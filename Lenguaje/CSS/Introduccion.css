@@ -1,0 +1,32 @@
+/* Para seleccionar todo */
+*{
+    text-align: center; /* Centrar el texto */
+    text-transform: uppercase; /* Convertir el texto en mayusculas o minusculas */
+    text-decoration: underline;  /* Poner decoración al texto */
+    text-shadow: 5px 5px 10px black;  /* Ponerle sombra al texto */
+    font-size: medium; /* Tamaño del texto */
+    font-family: 'Courier New', Courier, monospace; /* El estilo del texto */
+    font-weight: 300; /* El grosor de la línea en el texto; es para hacerlo más llamativo */
+    font-style: italic;  /* Para dar un estilo: ponerla en negrita, linea en medio o ponerla de lado */
+    border: 5px solid black; /* Crear un borde al texto de un tamaño y color */
+    border-radius: 25px; /* Como de redondo será el borde */
+    box-shadow: 5px 5px 10px black; /* Añadir sombra al recuadro */
+}
+
+/* Mediante un "id", el cual es un nombre reusable. "Id" va con hastag */
+#id{
+    background: red; /* Ponerle color al fondo */
+    background-color: rgb(250 250 250); /* Es parecido al "background", pero este tiene menos opciones */
+    background-image: url(hhtp:/localhost); /* Para poner una imagen de fondo */
+    backdrop-filter: blur(3px); /* Poner un filtro al fondo */
+    background: linear-gradient(90deg /* Grados del difuminado */, rgb(250 250 250), rgb(0 0 0)); /* Genera un difuminado en el fondo */
+    margin: 50px 25px 50px 25px; /* Espacio que se determina para separar */
+    padding: 10% 20% 10% 20%; /* Relleno que se determina para hacer más grande o pequeño */
+    /* Hay diferentes maneras de medir en una pantalla: px, %, rem, etc */
+    margin-top: 50px; /* Margen superior */
+    margin-left: 25px; /* Margen del lado izquierdo */
+    margin-bottom: 50px; /* Margen inferior */
+    margin-right: 25px; /* Margen del lado derecho */
+    /* También funciona con padding */
+    margin: 0 auto; /* Una de las maneras de centrar una página */
+}
