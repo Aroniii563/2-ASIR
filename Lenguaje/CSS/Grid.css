@@ -1,0 +1,37 @@
+#id{
+    display: grid; /* Le estás diciendo al código que se usará GRID */
+    grid-template-columns: repeat(2, 1fr); /* Habrá dos columnas de un tamaño (1fr) */
+    grid-template-rows: 1fr 1fr; /* Habrá dos filas de un tamaño (1fr) */
+    /* Una fila que mide 1fr, pero cuando no puede medir eso pasa a 100px */
+    grid-template-rows: minmax(10px, 1fr) 1fr;
+    gap: 25px; /* Separación entre cada contenidos */ 
+    grid-auto-columns: 100px; /* Genera una columna, pero con un tamaño de manera automatica */
+    grid-auto-rows: 100px; /* Genera una fila, pero con un tamaño de manera automatica */
+    /* Para mostrar mas de una columna de manera automatica cuando lo permita el espacio */
+    grid-template-columns: repeat(auto-fill, minmax(200, 1fr));
+    /* Ocupa el espacio si no quedan elementos para rellenar */
+    grid-template-columns: repeat(auto-fit, minmax(200, 1fr));
+    /* Hay una manera de simplificar el codigo */
+    grid-template-areas: /* Usar los nombres designados a cada elemento */
+    "header header header"
+    "navbar main main"
+    "footer foorte footer";
+}
+
+.elemento1{
+    grid-column-start: 1; /* Donde empieza el elemento */
+    grid-column-end: 3; /* Donde acaba el elemento */
+    grid-column-start: span 2; /* Ocupa dos columnas */
+    grid-row: 2 / 5; /* Indica que el elemento vaya de la fila 2 a la 5 */
+    grid-column: 1 / 3; /* Indica que el elemento vaya de la columna 1 a la 3 */
+    /* Tambien se puede hacer con numeros negativos */
+    grid-column: 1 / -1; /* Que vaya de la primera columna hasta la ultima */
+    grid-area: hola-mundo; /* Nombrar un elemento */
+}
+
+/* Responsive (se usa para moviles) */
+@media (width > 500px){
+    #id{
+        grid-template-columns: minmax(200px, 1fr) 1fr 1fr; 
+    }
+}
