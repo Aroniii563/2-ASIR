@@ -1,0 +1,59 @@
+.posicion{
+    /* Posicion actual del contenido */
+    position: static;  
+    /* Se usa para indicar cual es el elemento principal */
+    position: relative; 
+    /* Elemento fijo con respecto a la pantalla. Se usan coordenadas para indicar su lugar */
+    position: fixed; 
+    /* Puedes indicar las coordenadas con respecto al padre (relative) */
+    position: absolute; 
+    /* Parecido al "fixed", pero este es respecto al elemento principal (relative) */
+    position: sticky;
+    top: 0; /* Coordenada superior */
+    right: 0; /* Coordenada derecha */
+    bottom: 0; /* Coordenada inferior */
+    left: 0; /* Coordenada izquierda */
+}
+
+#capas{
+    z-index: 2; /* Se usa para indicar la capa del contenedor */
+}
+
+/* SELECTORES: */
+
+/* Hay varios selectores que se usan para seleccionar un contenedor o decorar un contenedor */
+
+.selector:hover{
+    /* Cuando se pase por encima del contenedor este cambiará */
+    background-color: red;
+}
+
+.selector:first-child{
+    /* Primer contenedor de todos */
+    background-color: red;
+}
+
+.selctor:last-child{
+    /* Ultimo contenedor de todos */
+    background-color: red;
+}
+
+.selector:nth-child('x'){
+    /* Indica que contenedor se usa */
+    background-color: red;
+}
+
+.selector::after{
+    /* Se usa para insertar algo después del contenedor que se quiera */
+    content: "x"; /* Para escribir lo que se quiera */
+}
+
+.selector::before{
+    /* Igual que el "after", pero este sería antes de un contenedor */
+    content: "x";
+}
+
+.selector:visited{
+    /* Se usa para indicar que se ha visitado un enlace o boton */
+    color: red;
+}
