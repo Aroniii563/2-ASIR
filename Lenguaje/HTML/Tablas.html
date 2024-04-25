@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tablas</h1>
+    </header>
+    <main>
+        <table> <!-- Para crear las tablas -->
+            <tr> <!-- Para insertar las columnas -->
+                <th>Destino</th> <!-- Para insertar los titulos -->
+                <th>Pais</th>
+                <th>Hora</th>
+            </tr>
+            <tr>
+                <td>Madrid</td> <!-- Para insertar las filas -->
+                <td rowspan="2">España</td> <!-- Con rowspan haces que coja dos filas -->
+            </tr>
+            <tr>
+                <td colspan="2">Paris</td> <!-- Con colspan haces que coja dos columnas -->
+                <td>Francia</td>
+                <td>1:00 am</td>
+            </tr>
+            <tr>
+                <td>Tokio</td>
+                <td>Japon</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>
+            creado por &copy;Aarón García González.
+        </p>
+    </footer>
+</body>
+</html>
