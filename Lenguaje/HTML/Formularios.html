@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            margin: auto;
+        }
+        header{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- También se pueden crear formularios -->
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <main>
+        <form action="" method="post"> <!-- Es importante empezar con un forma para insertar el archivo que validará -->
+            <fieldset> <!-- El contenedor par crear el formulario -->
+                <legend>Formulario</legend> <!-- Es el titulo que se le otorga al formulario -->
+                
+                <!-- Hay muchos tipos de datos, por eso hay existen diferentes herramientas para generarlos: -->
+
+                <!-- TEXTO: -->
+                <label for="name">Nombre</label> <!-- Label es para enlazar el input e indicar el dato que se pide -->
+                <input type="text" id="name"> <!-- El input es para indicar el tipo -->
+                <br><br>
+
+                <!-- REDACTAR: -->
+                <label for="opinion">Opiniones</label>
+                <textarea name="text" id="opinion" cols="50" rows="5"></textarea> <!-- Se puede variar el tamaño para que sea más o menos grande -->
+                <br><br>
+
+                <!-- EMAIL: -->
+                <label for="mail">Correo</label>
+                <input type="email" id="mail" required> <!-- Con required obligas a insertar el dato -->
+                <br><br>
+
+                <!-- CONTRASEÑA: -->
+                <label for="cont">Contraseña</label>
+                <input type="password" id=cont>
+                <br><br>
+
+                <!-- OPCIÓN -->
+                <label for="method">Metodo de pago</label>
+                <select name="pago" id="method"> <!-- Para crear: escoger opcion, se pone esta llave -->
+                    <option value="Efectivo">Efectivo</option>
+                    <option value="Tarjeta">Tarjeta</option>
+                    <option value="PayPal">PayPal</option>
+                </select>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            Creada por &copy;Aarón García González.
+        </p>
+    </footer>
+</body>
+</html>
