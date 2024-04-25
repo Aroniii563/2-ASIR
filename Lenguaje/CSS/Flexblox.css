@@ -1,0 +1,40 @@
+.display{
+    display: block; /* Sentido de lectura general */
+    display: inline; /* Organiza en linea */
+    display: list-item; /* Organiza en lista */
+    display: flex; /* Organiza el contenido del contenedor padre de forma flexible */
+    order: 1; /* Se usa para indicar el lugar del contenido */
+}
+
+.flec-direction{
+    flex-direction: column; /* La direccion del contenido es en columnas */
+    flex-direction: column-reverse; /* En columnas, pero se invierte el orden */
+    flex-direction: row; /* La direccion del contenido es en filas */
+    flex-direction: row-reverse; /* En filas, pero se invierte el orden */
+    /* Se puede marcar el sentido de lectura */
+    direction: ltr; 
+    direction: rtl;
+    /* Tambien se puede indicar la direccion de lectura */
+    writing-mode: horizontal-tb;
+    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
+    flex-wrap: wrap; /* Si un cotenido no cabe provoca salto de linea */
+    /* Para cambiar el ancho de un contenido */
+    flex-grow: 0; /* Cambiar el tamaño del contenido */
+    flex-shrink: 1; /* Depende del "flex-basis", y puede reducir el tamaño */
+    flex-basis: auto; /* Tamaño que cogera cada contenido dentro del contenedor */
+    flex: 1; /* Es la manera resumida de todo lo anterior */
+}
+
+.justificacion{
+    justify-content: center; /* Centra el contenido con respecto al eje x */
+    justify-content: space-around; /* Deja el mismo espacio entre cada contenido, pero diferente en los laterales */
+    justify-content: space-between; /* Parecido al "space-around", pero este no deja espacio a los laterales */
+    justify-content: space-evenly; /* Parecido al "space-around", pero deja el mismo espacio entre los contenedores y laterales */
+    justify-content: flex-start; /* Posicionar al inicio de la fila */
+    justify-content: flex-end; /* Posicionar al final de la fila */
+    gap: 15px; /* Separacion entre cada contenido */
+    align-items: center; /* Alinea con respecto al eje y */
+    align-content: flex-start; /* Agrupa todo el contenido al inicio, tambien puede ser al final o centro */
+    align-self: flex-start; /* Alinea un contenido en especifico al inicio, al final o centro */
+}
