@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+
+    <!-- IMPORTANTE: es estilo de la página se puede hacer
+    en el HTML, pero es más recomendable en un CSS -->
+
+    <!-- Cabecera de una página web -->
+    <header>
+        <section> <!-- Crea un contenedor -->
+            <h1>Hola HTML</h1> <!-- Se usa para los titulo, hay hasta 6 -->
+            <nav> <!-- Es otro contenedor, pero este es para la barra de busqueda -->
+                <ul> <!-- Se usa para crear listas desordenadas -->
+                    <li>home</li>
+                    <li>info</li> <!-- Dependiendo del número de cosas, se insertan más o menos -->
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!--- Cuerpo de una página web -->
+    <main>
+        <section id="home"> <!-- Añaniendo un "id" o "class" es más para realizar el css -->
+            <article> <!-- article se usa como section, pero insertar información -->
+                <h2>HOME</h2>
+                <p> <!-- Se usa para insertar texto -->
+                    soy el home, el lugar de la información principal
+                </p>
+            </article>
+            <img src="" alt="home"> <!-- Se usa para insertar imagenes -->
+        </section>
+        <section>
+            <article>
+                <h2>INFO</h2>
+                <p>
+                    soy la página de información.
+                </p>
+            </article>
+            <img src="" alt="info">
+        </section>
+    </main>
+
+    <!-- Pie de una página web -->
+    <footer>
+        <div> <!-- Es parecido al section -->
+            <a href="">Instagram</a> <!-- Se usa para insertar enlaces a otras páginas web
+                                o de la propia página -->
+            <br> <!-- Sirve para generar saltos de línea -->
+            <a href="">Github</a>
+        </div>
+        <p>
+            Creada por &copy;Aarón García González
+            <!-- Escribiendo "&" y una palabra, se pueden generar formas o señales utiles -->
+        </p>
+    </footer>
+</body>
+</html>
