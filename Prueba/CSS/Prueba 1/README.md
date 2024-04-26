@@ -1,7 +1,5 @@
 # Prueba 1 de CSS:
 
-:editormd-logo-5x:
-
 Hacer una página web sobre una persona o un personaje; el personaje puede ser tanto de una serie como de un videojuego.
 La página tiene debe tener:
 
@@ -57,4 +55,4 @@ Una vez se acabe subir el archivo "HTML" y "CSS" en una carpeta que tenga tu nom
 
 - Cualquer duda sobre la practica preguntar.
 
-Buena suerte  :tw-1f60a:
+Buena suerte  ☺️
