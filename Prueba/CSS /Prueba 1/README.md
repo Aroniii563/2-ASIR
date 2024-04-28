@@ -7,8 +7,6 @@ La página tiene debe tener:
 - Dos imagenes (poner enlace de la página, nada de carpeta imagen).
 - Los colores los puedes elegir tu.
 
-# <img scr="../captura de pantalla (280).png">
-
 ---
 ### Header:
 
