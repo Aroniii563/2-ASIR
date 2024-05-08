@@ -53,8 +53,6 @@ La página tiene debe tener:
 
 Una vez se acabe subir el archivo "HTML" y "CSS" en una carpeta que tenga tu nombre.
 
-<img src="./img/Captura de pantalla (281).png">
-
 - Cualquer duda sobre la practica preguntar.
 
 Buena suerte  ☺️
