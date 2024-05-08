@@ -101,3 +101,32 @@ BEGIN
 END //
 
 DELIMITER ;
+
+/* Una funcion para saber si es mayor de edad */
+
+delimiter //
+create function mayor_edad (edad int)
+
+returns int deterministic 
+
+begin
+
+	declare mayor int;
+    
+	if edad >= 18
+		
+	then 
+        
+		set mayor = 1;
+        
+	else 
+    
+		set mayor = 0;
+    
+    end if;
+    
+    return mayor;
+    
+end //
+
+delimiter ;
