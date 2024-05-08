@@ -130,3 +130,28 @@ begin
 end //
 
 delimiter ;
+
+/* Procedimiento que actualice la tabla categorías recibiendo como parámetros los 
+3 datos de los 3 campos, el código de la categoría para filtrar en la actualización, y los 
+otros dos campos para modificar(nombrecategoria y estado). Controlar si el código de
+la categoría no existe. ( Con uso de if exists (select...) then  update .. else  select ".." end). 
+Se usarán 3 parámetros IN. Poner start transaction antes del update del procedimiento. */
+
+delimiter //
+create procedure ejercicio2 (in cod int, in nom varchar(50), in est char(1))
+
+begin
+	
+    if not exists (select * from categorias where codcategoria = cod)
+    
+		then select "No eixste el producto";
+		
+        else
+			start transaction;
+			update categorias set nom_categoria = nom, estado = est where codcategoria = cod;
+			
+	end if;
+    
+end //
+
+delimiter 
