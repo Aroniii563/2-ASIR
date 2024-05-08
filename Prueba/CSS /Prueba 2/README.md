@@ -51,4 +51,4 @@ Una vez se acabe subir una carpeta con los archivos creados y una carpeta de im�
 
 - Cualquier duda sobre la práctica preguntar.
 
-Buena suerte :tw-2b06: :tw-2b07: :tw-2b05: :tw-2b05: :tw-27a1: :tw-27a1: :tw-2b07: :tw-21a9: :tw-2b06: :tw-2b07: :tw-2b05: :tw-2b05: :tw-27a1: :tw-27a1:
+Buena suerte ⬆️⬇️⬅️⬅️➡️➡️⬇️↩️⬆️⬇️⬅️⬅️➡️➡️
