@@ -155,3 +155,31 @@ begin
 end //
 
 delimiter 
+
+/* Realizar una función que enviando, como parámetro IN, el código del producto 
+nos retorne el precio. Si el producto no existe retornará un 0.  (El precio a retornar 
+depende de si está ese producto en oferta o no.) Hay que seguir usando los if y retorna el precio. */
+
+delimiter //
+create function ejercicio3 (cod int)
+returns double deterministic
+
+begin
+
+	declare precio double;		
+	if exists (select * from productos where codproducto = cod)    
+		then         
+			if ((select oferta from productos where codproducto = cod) = 'SI')
+				then				
+					select precio_oferta into precio from productos where codproducto = cod;
+				else
+					select precio_normal into precio from productos where codproducto = cod;
+			end if;  	
+	else
+		set precio = 0;
+    end if;    
+    return precio;
+    
+end //
+
+delimiter ;
