@@ -12,3 +12,8 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  |Nombre|Lenguaje|Base de Datos|
  |------|--------|-------------|
  |Gerard|DTD, XSD|...|
+ |Adrián|DTD|MER, Tablas|
+ |Cristopher|TODO|MER, Tablas|
+ |Nauzet|XSD|MER, Tablas, Consultas|
+ |Daniel|CSS y XML|...|
+ |Alexis|CSS y XML|...|
