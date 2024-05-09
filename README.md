@@ -17,3 +17,4 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  |Nauzet|XSD|MER, Tablas, Consultas|
  |Daniel|CSS y XML|...|
  |Alexis|CSS y XML|...|
+ |Samuel|...|Tablas|
