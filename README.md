@@ -18,3 +18,6 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  |Daniel|CSS y XML|...|
  |Alexis|CSS y XML|...|
  |Samuel|...|Tablas|
+
+Por si alguno quiere estudiar PNI dejo enlace de un crack del internet:
+[enter link description here](https://www.youtube.com/@eliezer.deleon)
