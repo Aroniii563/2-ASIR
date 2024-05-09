@@ -1,0 +1,51 @@
+<!-- Esto es un comentario -->
+
+<!-- Siempre comenzar con el elemto raíz principal -->
+<!ELEMENT Libros (Libro)+> <!-- Al añadir el "+" fuera del parentesis estás indicando que habrá más de un libro -->
+<!-- Luego poner lo elementos que tendrá cada libro -->
+<!ELEMENT Libro (Titulo, Autor)>
+<!-- También se puede hacer de otra manera -->
+<!ELEMENT Titulo (#PCDATA | Autor)*> <!-- De esta manera se indica que el elemento "Titulo" tiene un dato y un sub-elemento -->
+<!-- Cada vez que se pone un elemento en una raíz, debe indicarse que tipo de dato será -->
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Autor (#PCDATA)> <!-- "#PCDATA" indica que es una cadena de texto -->
+
+<!-- Palabras reservadas: -->
+
+<!-- Hay ciertas palabras con las cuales se pueden hacer varias funciones, por ejemplo: EMPTY -->
+<!ELEMENT LibroAgotado EMPTY> <!-- Se indica que el elemento debe ser vacío, por lo tanto no habrá datos -->
+<!-- ANY-->
+<!ELEMENT Editorial ANY> <!-- Un elemento puede contener a otro o un simple dato, no suele usarse -->
+
+<!-- Repeticiones: -->
+
+<!-- Dependiendo del númeor de veces que se repetirá un elemento, se deberá poner un sigo u otro -->
+<!-- Si queremos indicar que el elemento puede no aparecer o aparecer una o muchas veces, poner: * -->
+<!ELEMENT Libro (Titulo*)> <!-- De esta manera puede ser que un libro tenga 0 titulos, 1 titulo o muchos titulos -->
+<!-- Si queremos indicar que el elemento puede aparecer una o muchas veces, poner: + -->
+<!ELEMENT Libro (Titulo+)> <!-- De esta manera estas diciendo que si o si habrá un titulo, pero puede ser que exista más de 1 titulo -->
+<!-- Si queremos indicar que el elmento puede no aparacer o aparecer solo una vez, poner: ? -->
+<!ELEMENT Libro (Titulo?)> <!-- De esta manera habrá o no habrá titulo, pero solo podrá haber 1 -->
+
+<!-- Atributos: -->
+
+<!-- Los atributos son declaraciones que se usan para diferenciar. Existen diferentes tipos de atributos. -->
+
+<!-- Cadena de texto -->
+<!ATTLIST Autor Nacionalidad CDATA #REQUIRED> <!-- Siempre poner en que elemento irá el atributo, como se llamará el atrributo, el tipo de atributo y, si se quiere, que sea obligatorio u opcional --> 
+<!-- Lista de valores -->
+<!ATTLIST Pelicula Genero (Ficcion | Terror | Humor) #IMPLIED> <!-- De esta manera se podrá elegir entre una serie de géneros predeterminados, y es opcional poner el dato-->
+<!-- Identificador -->
+<!ATTLIST Pelicula id ID #FIXED "000"> <!-- Con "FIXED" le estoy diciendo a la página que por defecto el valor de las ID es 000 -->
+<!-- Referencias -->
+<!ATTLIST Cliente alquila IDREF > <!-- Una vez exista un ID en la página, se podrá hacer referencia a este -->
+
+<!-- Entidades: -->
+
+<!-- Las entidades se usan para hacer referencia a un fichero, página web, imágen, etc. Exsiten diferentes tipos de entidades -->
+
+<!-- General interno -->
+<!ENTITY empresa "Minik Coporation 2010"> <!-- De esta manera al poner "&" y, poner el nombre (empresa) en un elemento, se pondrá automaticamnente el valor que hayamos designado -->
+<!-- Sistema o Publica -->
+<!ENTITY datosanexo SYSTEM "anexo.xml"> <!-- Se usa para archivos locales o una red accesible desde la máquina -->
+<!ENTITY tema1 SYSTEM "http://www.miservidor.com/tema1.xml"> <!-- PUBLIC: Se usa para archivos publicados en un servidor. Es opcional poner "PUBLIC", se puede poenr siempre "SYSTEM" -->
