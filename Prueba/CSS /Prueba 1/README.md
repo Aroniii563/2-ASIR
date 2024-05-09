@@ -1,7 +1,7 @@
 # Prueba 1 de CSS:
 
 Hacer una página web sobre una persona o un personaje; el personaje puede ser tanto de una serie como de un videojuego.
-La página tiene debe tener:
+La página debe tener:
 
 - Un header, un main y footer.
 - Dos imagenes (poner enlace de la página, nada de carpeta imagen).
