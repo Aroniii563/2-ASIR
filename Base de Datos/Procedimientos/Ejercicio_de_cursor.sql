@@ -51,3 +51,29 @@ BEGIN
   CLOSE cur;
 END //
 DELIMITER ;
+
+-- Función:
+
+DELIMITER //
+CREATE PROCEDURE actualizar_columna_edad_Aaron()
+BEGIN
+  DECLARE done INT DEFAULT 0;
+  DECLARE cod int unsigned;
+  declare fecha date;
+  declare ed int;
+  DECLARE cur CURSOR FOR SELECT id, fecha_nacimiento FROM alumnos_Aaron;
+  DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+  
+  open cur;
+  Aaron_loop: LOOP
+  fetch cur into cod, fecha;
+  if done then
+	leave Aaron_loop;
+  end if;
+  update alumnos_Aaron set edad = calcular_edad_Aaron(fecha)
+  where id = cod;
+  end LOOP;
+  close cur;
+  
+end //
+delimiter ;
