@@ -15,20 +15,3 @@ insert into alumnos values
 update notas set nota=nota * 1.15 where
 dni=(select DNI from alumnos where APENOM='Díaz,Fernández,María')
 and cod=(select cod from asignaturas where cod=5);
-
-/* Crea un procedimiento, de nombre Mejores, que muestre los nombres y las notas de los 2 mejores
-alumnos, de la asignatura (como código) que se pase por parámetro al procedimiento. Controlar si 
-el código que se pasa existe o no. */
-
-delimiter //
-create procedure Mejores (in c int)
-begin
-	if exists (select * from notas where cod = c)
-    then
-		select apenom, nota from notas inner join alumnos on
-		notas.dni = alumnos.dni where cod = c order by nota desc limit 2;
-	else 
-		select 'El código introducido no existe';
-	end if;
-end //
-delimiter
