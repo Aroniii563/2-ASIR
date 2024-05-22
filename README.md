@@ -12,7 +12,7 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
 
   |Nombre|Lenguaje|Base de Datos| 
  |------|--------|-------------|
- |Gerard|DTD, XSD|...|
+ |Gerard|DTD, XSD|Vistas|
  |Adrián|DTD|MER, Tablas|
  |Cristopher|TODO|MER, Tablas|
  |Nauzet|XSD, XPATH|MER, Tablas, Consultas|
