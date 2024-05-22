@@ -19,7 +19,8 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  |Alexis|CSS y XML|...|
  |Samuel|RSS|...|
  |Acaymo|CSS|MER, Tablas|
- |Maria|...|UT4 y UT5|
+ |Maria|...|MER, Vistas|
+ |Manuel|CSS, XML|MER, Tablas|
 
 Por si alguno quiere estudiar PNI dejo enlace de un crack del internet:
 [enter link description here](https://www.youtube.com/@eliezer.deleon)
