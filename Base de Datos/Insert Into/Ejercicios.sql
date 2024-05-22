@@ -11,3 +11,7 @@ insert into alumnos values
 ('45566778', 'Sin Miedo, Juan', 'C/León', 'Fuenteovejuna', '922584687');
 
  /* Actualiza la nota de la asignatura RET, con un incremento del 15%, para la alumna María Díaz Fernandez. */
+
+update notas set nota=nota * 1.15 where
+dni=(select DNI from alumnos where APENOM='Díaz,Fernández,María')
+and cod=(select cod from asignaturas where cod=5);
