@@ -27,5 +27,5 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
 
 
 Por si alguno quiere estudiar PNI dejo enlace de un crack del internet:
-[enter link description here](https://www.youtube.com/@eliezer.deleon)
+[YouTube](https://www.youtube.com/@eliezer.deleon)
 
