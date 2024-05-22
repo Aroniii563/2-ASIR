@@ -28,3 +28,4 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
 
 Por si alguno quiere estudiar PNI dejo enlace de un crack del internet:
 [enter link description here](https://www.youtube.com/@eliezer.deleon)
+<blockquote class="imgur-embed-pub" lang="en" data-id="LjzLESl"  ><a href="//imgur.com/LjzLESl">Sonic the Man-Hog, God of Speed</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
