@@ -17,7 +17,7 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  |Nauzet|XSD, XPATH|MER, Tablas, Consultas|
  |Daniel|CSS y XML|...|
  |Alexis|CSS y XML|...|
- |Samuel|...|Tablas|
+ |Samuel|RSS|...|
  |Acaymo|CSS|MER, Tablas|
 
 Por si alguno quiere estudiar PNI dejo enlace de un crack del internet:
