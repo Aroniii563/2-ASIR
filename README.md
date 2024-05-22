@@ -9,7 +9,7 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  Si no sabes bien lo que tienes que recuperar en cada asignatura, justo debajo te dejo una tabla.
  Busca tu nombre:
 
- # |Nombre|Lenguaje|Base de Datos|
+ |Nombre|Lenguaje|Base de Datos|
  |------|--------|-------------|
  |Gerard|DTD, XSD|...|
  |Adrián|DTD|MER, Tablas|
@@ -21,6 +21,7 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  |Acaymo|CSS|MER, Tablas|
  |Maria|...|MER, Vistas|
  |Manuel|CSS, XML|MER, Tablas|
+ |Christian|...|...|
 
 Por si alguno quiere estudiar PNI dejo enlace de un crack del internet:
 [enter link description here](https://www.youtube.com/@eliezer.deleon)
