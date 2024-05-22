@@ -6,10 +6,9 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
 
  ##### ¿Desconoces lo que debes recuperar?
 
-
+<br>
+<br>
  <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" width=40% /></p>
-<br>
-<br>
 <p align="left"> Si no sabes bien lo que tienes que recuperar en cada asignatura, justo debajo te dejo una tabla.
  Busca tu nombre:</p>
 
