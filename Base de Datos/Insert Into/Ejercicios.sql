@@ -9,3 +9,5 @@ el resto de los datos, con lo  que quieras. */
 
 insert into alumnos values
 ('45566778', 'Sin Miedo, Juan', 'C/León', 'Fuenteovejuna', '922584687');
+
+ /* Actualiza la nota de la asignatura RET, con un incremento del 15%, para la alumna María Díaz Fernandez. */
