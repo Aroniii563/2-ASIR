@@ -9,7 +9,7 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  Si no sabes bien lo que tienes que recuperar en cada asignatura, justo debajo te dejo una tabla.
  Busca tu nombre:
 
- |Nombre|Lenguaje|Base de Datos|
+ # |Nombre|Lenguaje|Base de Datos|
  |------|--------|-------------|
  |Gerard|DTD, XSD|...|
  |Adrián|DTD|MER, Tablas|
