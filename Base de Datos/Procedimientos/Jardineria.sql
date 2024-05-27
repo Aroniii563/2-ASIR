@@ -62,3 +62,19 @@ delimiter ;
     
 end //
 delimiter ;
+
+/* Escriba una función llamada contar_productos que reciba como
+ entrada el nombre de la gama y devuelva el número de productos
+ que existen dentro de esa gama. */
+ 
+ delimiter //
+ create function contar_productos (gama varchar(50))
+	returns int unsigned
+    reads sql data
+begin
+	declare total int unsigned;
+    set total =
+    (select count(*) from Productos where Productos.gama = gama);
+    return total;
+end //
+delimiter ;
