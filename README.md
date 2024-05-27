@@ -24,8 +24,10 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  |Manuel|CSS, XML|MER, Tablas|
  |Christian|CSS, XML|MER, Tablas|
 
+## Examenes
+
 |Materia|Dia|Examen|
-|.......|......|.......|
+|-------|--------|-------------|
 |IDP|3|Recuperacion|
 |Lenguaje de marcas|4|Examen final|
 |Base de datos|5|Recuperacion 2 trimestre|
