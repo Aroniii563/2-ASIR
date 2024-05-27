@@ -33,13 +33,13 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
 | FOL                  | 19             |...|  IDP                  | 3   | Recuperacion    |
 | PNI                  | 32             |...|  Ingles               | 3   | Gramatica       |
 | IDP                  | 51             |...|  Lenguaje de marcas   | 4   | Examen final    |
-| FUW                  | 19             |...|  Base de datos        | 5   | Recuperacion 2T |
-| GTB                  | 32             |...|  Lenguaje de marcas   | 6   | Recuperacion 2T |
+| FUW                  | 19             |...|  Base de datos        | 5   | Recuperacion 2º T |
+| GTB                  | 32             |...|  Lenguaje de marcas   | 6   | Recuperacion 2º T |
 | LND                  | 25             |...|  Fol                  | 7   | Examen tema "x" |
 | ING                  | 12             |...|  Base de datos        | 7   | Extraordinario  |
 |                      |                |...|  Redes                | 10  | Examen final    |
-|                      |                |...|  Lenguaje de marcas   | 11  | Recuperacion 3T |
-|                      |                |...|  Base de datos        | 12  | Recuperacion 3T |
+|                      |                |...|  Lenguaje de marcas   | 11  | Recuperacion 3º T |
+|                      |                |...|  Base de datos        | 12  | Recuperacion 3º T |
 |                      |                |...|  Fundamentos de Hardware | 13 | Recuperacion |
 |                      |                |...|  Redes                | 14  | Recuperacion    |
 
