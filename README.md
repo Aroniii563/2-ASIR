@@ -29,6 +29,7 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
 |Materia|Dia|Examen|
 |-------|--------|-------------|
 |IDP|3|Recuperacion|
+|Ingles|3|Gramatica|
 |Lenguaje de marcas|4|Examen final|
 |Base de datos|5|Recuperacion 2 trimestre|
 |Lenguaje de marcas|6|Recuperacion 2 trimestre|
