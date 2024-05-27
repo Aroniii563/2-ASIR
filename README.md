@@ -24,6 +24,19 @@ Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las prueba
  |Manuel|CSS, XML|MER, Tablas|
  |Christian|CSS, XML|MER, Tablas|
 
+|Materia|Dia|Examen|
+|.......|...|......|
+|IDP|3|Recuperacion|
+|Lenguaje de marcas|4|Examen final|
+|Base de datos|5|Recuperacion 2 trimestre|
+|Lenguaje de marcas|6|Recuperacion 2 trimestre|
+|Fol|7|Examen tema "x"|
+|Base de datos|7|Extraordinario|
+|Redes|10|Examen final|
+|Lenguaje de marcas|11|Recuperacion 3 trimestre|
+|Base de datos|12|Recuperacion 3 trimestre|
+|Fundamentos de Hardware|13|Recuperacion|
+|Redes|14|Recuperacion|
 
 
 Por si alguno quiere estudiar PNI dejo enlace de un crack del internet:
