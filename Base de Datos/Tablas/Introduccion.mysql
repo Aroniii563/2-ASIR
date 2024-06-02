@@ -55,5 +55,5 @@ ALTER TABLE empleados DROP CONSTRAINT ID PRIMARY KEY;
 ALTER TABLE empleados DROP CONSTRAINT ID FOREIGN KEY CodigoPedido;
 
 /* Añadir una clave primaria o foranea */
-ALTER TABLE empleados ADD CONSTRAINT ID PRIMARY KEY CodigoEmpleado INT;
+ALTER TABLE empleados ADD PRIMARY KEY CodigoPedido INT;
 ALTER TABLE empleados ADD FOREIGN KEY (CodigoPedido) REFERENCES pedidos (CodigoPedido);
