@@ -60,7 +60,7 @@
 		
 				<xsl:if test="precio &lt; 50">
 		
-					<xsl:attribute name="bgcolor">rose</xsl:attribute>
+					<xsl:attribute name="bgcolor">pink</xsl:attribute>
 		
 				</xsl:if>
 		
