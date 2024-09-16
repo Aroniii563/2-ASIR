@@ -3,14 +3,14 @@
  
 ## Asignaturas y Examenes:
 
-| Materia              | Faltas maximas |...| Materia              | Examenes |
-|----------------------|----------------|---|----------------------|-----|
-| ADE                  |                |...|  Administración de SGDB | 3   |
-| SGY                  |                |...|  Seguridad           | 3   |
-| ADD                  |                |...|  Administracion de Sistemas | 4   |
-| IMW                  |                |...|  Aplicaciones Web    | 5   | 
-| SRD                  |                |...|  Servicios de Red    | 6   | 
-| EIE                  |                |...|  Empresas            |     |
+| Materia              | Materia |...| Examen | Dia
+|----------------------|----------------|---|-----| |
+| ADE                  | Administración de SGDB |...|   | |
+| SGY                  | Seguridad                |...|   | |
+| ADD                  | Administracion de Sistemas |...|    | |
+| IMW                  | Aplicaciones Web               |...|    | |
+| SRD                  | Servicios de Red                |...|     | |
+| EIE                  | Empresas               |...|    | |
 
 Por si alguno quiere estudiar PNI dejo enlace de un crack del internet:
 [YouTube](https://www.youtube.com/@eliezer.deleon)
