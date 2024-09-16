@@ -1,9 +1,5 @@
-# Recuperacion
-
-Dependiendo de lo que tengas suspendido miras los apuntes, y realizas las pruebas, de los temas de cada asignatura.
-
- ---
- <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" width=40% /></p>
+# 2ºASIR:
+ <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" width=30% /></p>
  
 ## Asignaturas y Examenes:
 
