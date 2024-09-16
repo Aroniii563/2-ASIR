@@ -3,8 +3,8 @@
  
 ## Asignaturas y Examenes:
 
-| Materia              | Materia |...| Examen | Dia
-|----------------------|----------------|---|-----| |
+| Materia              | Materia |...| Examen | Dia |
+|----------------------|----------------|---|-----|---|
 | ADE                  | Administración de SGDB |...|   | |
 | SGY                  | Seguridad                |...|   | |
 | ADD                  | Administracion de Sistemas |...|    | |
