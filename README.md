@@ -1,5 +1,5 @@
 # 2ºASIR:
- <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" width=30% /></p>
+ <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" width=20% /></p>
  
 ## Asignaturas y Examenes:
 
